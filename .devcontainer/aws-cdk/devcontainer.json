@@ -9,6 +9,10 @@
 
 	"remoteUser": "codespace",
 
+	"features": {
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {}
+	},
+
 	"customizations": {
 		"vscode": {
 			"extensions": [

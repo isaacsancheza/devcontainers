@@ -1,7 +1,7 @@
 {
 	"name": "aws-tailwind",
 
-	"image": "ghcr.io/isaacsancheza/images:aws-cdk",
+	"image": "ghcr.io/isaacsancheza/images:aws-node18",
 
 	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
 
