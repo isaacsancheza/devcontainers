@@ -1,5 +1,5 @@
 {
-	"name": "aws-tailwind",
+	"name": "aws-cdk",
 
 	"image": "ghcr.io/isaacsancheza/images:aws-cdk",
 
@@ -12,10 +12,11 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"esbenp.prettier-vscode",
+				"ms-python.python",
+				"ms-python.autopep8",
+				"ms-python.vscode-pylance",
 				"kddejong.vscode-cfn-lint",
-				"bradlc.vscode-tailwindcss",
-				"AmazonWebServices.aws-toolkit-vscode"
+				"AmazonWebServices.aws-toolkit-vscode"			
 			]
 		}
 	}

@@ -1,0 +1,27 @@
+{
+	"name": "lambda-python3.9",
+
+	"image": "ghcr.io/isaacsancheza/images:aws-python3.9",
+
+	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+
+	"workspaceFolder": "/workspace",
+
+	"remoteUser": "codespace",
+
+	"features": {
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {}
+	},
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-python.autopep8",
+				"ms-python.vscode-pylance",
+				"kddejong.vscode-cfn-lint",
+				"AmazonWebServices.aws-toolkit-vscode"			
+			]
+		}
+	}
+}
