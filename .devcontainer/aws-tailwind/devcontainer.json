@@ -1,0 +1,22 @@
+{
+	"name": "aws-tailwind",
+
+	"image": "ghcr.io/isaacsancheza/images:aws-node18",
+
+	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+
+	"workspaceFolder": "/workspace",
+
+	"remoteUser": "codespace",
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"esbenp.prettier-vscode",
+				"kddejong.vscode-cfn-lint",
+				"bradlc.vscode-tailwindcss",
+				"AmazonWebServices.aws-toolkit-vscode"
+			]
+		}
+	}
+}
