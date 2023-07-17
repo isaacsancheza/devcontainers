@@ -19,7 +19,6 @@
 				"ms-python.python",
 				"ms-python.autopep8",
 				"ms-python.vscode-pylance",
-				"kddejong.vscode-cfn-lint",
 				"AmazonWebServices.aws-toolkit-vscode"			
 			]
 		}

@@ -13,7 +13,6 @@
 		"vscode": {
 			"extensions": [
 				"esbenp.prettier-vscode",
-				"kddejong.vscode-cfn-lint",
 				"bradlc.vscode-tailwindcss",
 				"AmazonWebServices.aws-toolkit-vscode"
 			]

@@ -16,7 +16,6 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"kddejong.vscode-cfn-lint",
 				"AmazonWebServices.aws-toolkit-vscode"			
 			]
 		}
