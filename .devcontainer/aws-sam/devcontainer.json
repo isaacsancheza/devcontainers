@@ -16,7 +16,6 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"AmazonWebServices.aws-toolkit-vscode"			
 			]
 		}
 	}
