@@ -17,9 +17,7 @@
 		"vscode": {
 			"extensions": [
 				"ms-python.python",
-				"ms-python.autopep8",
-				"ms-python.vscode-pylance",
-				"AmazonWebServices.aws-toolkit-vscode"			
+				"ms-python.vscode-pylance"
 			]
 		}
 	}
