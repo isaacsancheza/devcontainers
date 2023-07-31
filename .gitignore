@@ -506,5 +506,5 @@ __pycache__
 cdk.out
 
 # isaacsancheza
-cdk outputs
+# custom cdk.json > outputFiles: ./outputs.json
 outputs.json
