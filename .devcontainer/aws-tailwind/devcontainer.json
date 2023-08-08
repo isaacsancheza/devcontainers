@@ -9,10 +9,16 @@
 
 	"remoteUser": "codespace",
 
+	"features": {
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {}
+	},
+	
 	"customizations": {
 		"vscode": {
 			"extensions": [
+				"ms-python.python",
 				"esbenp.prettier-vscode",
+				"ms-python.vscode-pylance",
 				"bradlc.vscode-tailwindcss"
 			]
 		}
