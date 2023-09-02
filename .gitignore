@@ -508,3 +508,7 @@ cdk.out
 # isaacsancheza
 # custom cdk.json > outputFiles: ./outputs.json
 outputs.json
+
+# aws-chalice
+.chalice/deployments/
+.chalice/venv/
