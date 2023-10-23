@@ -508,6 +508,8 @@ cdk.out
 # isaacsancheza
 # custom cdk.json > outputFiles: ./outputs.json
 outputs.json
+# invoke script
+invoke.py
 
 # aws-chalice
 .chalice/deployments/
