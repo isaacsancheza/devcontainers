@@ -1,0 +1,24 @@
+{
+	"name": "lambda-python3.12",
+
+	"image": "ghcr.io/isaacsancheza/codespaces-images:aws-python3.12",
+
+	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+
+	"workspaceFolder": "/workspace",
+
+	"remoteUser": "codespace",
+
+	"features": {
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {}
+	},
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-python.vscode-pylance"
+			]
+		}
+	}
+}
