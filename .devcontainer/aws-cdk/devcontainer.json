@@ -1,7 +1,7 @@
 {
 	"name": "aws-cdk",
 
-	"image": "ghcr.io/isaacsancheza/images:aws-cdk",
+	"image": "ghcr.io/isaacsancheza/codespaces-images:aws-cdk",
 
 	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
 
